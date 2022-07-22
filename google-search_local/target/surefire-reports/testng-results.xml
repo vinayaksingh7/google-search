@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-20T21:05:45 IST" name="com.herokuapp.theinternet.PositiveTest" finished-at="2022-07-20T21:05:45 IST" duration-ms="21">
+  <suite started-at="2022-07-22T19:45:39 IST" name="com.herokuapp.theinternet.PositiveTest" finished-at="2022-07-22T19:46:02 IST" duration-ms="22994">
     <groups>
     </groups>
-    <test started-at="2022-07-20T21:05:45 IST" name="Command line test" finished-at="2022-07-20T21:05:45 IST" duration-ms="21">
+    <test started-at="2022-07-22T19:45:39 IST" name="Command line test" finished-at="2022-07-22T19:46:02 IST" duration-ms="22994">
+      <class name="com.herokuapp.theinternet.PositiveTest">
+        <test-method signature="loginTest()[pri:0, instance:com.herokuapp.theinternet.PositiveTest@40e6dfe1]" started-at="2022-07-22T19:45:39 IST" name="loginTest" finished-at="2022-07-22T19:46:02 IST" duration-ms="22924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.herokuapp.theinternet.PositiveTest -->
     </test> <!-- Command line test -->
   </suite> <!-- com.herokuapp.theinternet.PositiveTest -->
 </testng-results>
