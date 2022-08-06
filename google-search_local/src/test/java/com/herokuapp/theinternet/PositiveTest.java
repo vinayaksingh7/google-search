@@ -1,11 +1,18 @@
 package com.herokuapp.theinternet;
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class PositiveTest {
 
+	public String title;
+
+	@Test(priority = 1)
 	public void loginTest() {
 
 		// create driver
@@ -29,6 +36,16 @@ public class PositiveTest {
 
 		// click on Login button
 		driver.findElement(By.className("radius")).click();
+
+		// getTitle   Rahul changes
+		title = driver.getTitle();
+
+	}
+        //Rahul changes
+	@Test(priority = 2)
+	public void loginPageTitleTest() {
+
+		Assert.assertEquals(title, "The Internet");
 	}
 
 	private void sleep(long m) {
