@@ -47,6 +47,11 @@ public class PositiveTest {
 
 		Assert.assertEquals(title, "The Internet");
 	}
+	
+	@Test(priority = 3)
+	public void testingMergeConflict(){
+	System.out.println("Testing Merge Conflict");		
+	}
 
 	private void sleep(long m) {
 		try {
