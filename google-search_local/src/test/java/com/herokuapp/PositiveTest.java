@@ -1,4 +1,4 @@
-package com.herokuapp.theinternet;
+package com.herokuapp;
 
 import org.openqa.selenium.By;
 
@@ -78,11 +78,27 @@ public class PositiveTest {
 	public void test1(){
 		System.out.println("Testing 1 rahul 3rd changes");
 	}*/
+@Test(priority = 5)
+public void testingMergeConflictRahulSecond() {
+    System.out.println("rahul changes 2");
+}
 
-
-    @Test(priority = 4)
-    public void testConflict() {
+    @Test(priority = 6)
+    public void test12(){
         System.out.println("Testing 1 rahul 3rd changes");
+
+        }
+
+        @Test(priority = 9)
+        public void test145() {
+            System.out.println("Testing 1 rahul 3rd changes");
+
+        }
+    @Test(priority = 9)
+    public void test1452() {
+        System.out.println("Testing 1 rahul 3rd changes");
+
+    }
 
 
         private void sleep ( long m){
