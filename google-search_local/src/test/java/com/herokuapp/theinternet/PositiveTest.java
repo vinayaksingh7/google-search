@@ -84,6 +84,22 @@ public class PositiveTest {
     public void testConflict() {
         System.out.println("Testing 1 rahul 3rd changes");
 
+        @Test
+        public void testingMergeConflictRahul() {
+            System.out.println("rahul changes");
+        }
+
+        @Test
+        public void testingMergeConflictRahulSecond() {
+            System.out.println("rahul changes 2");
+        }
+
+        @Test(priority = 4)
+        public void test1(){
+            System.out.println("Testing 1 rahul 3rd changes");
+
+
+
 
         private void sleep ( long m){
             try {
