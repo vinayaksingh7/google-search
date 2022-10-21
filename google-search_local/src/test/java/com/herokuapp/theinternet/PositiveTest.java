@@ -11,6 +11,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class PositiveTest {
 
 	public String title;
+	
+	public String currentURL;
 
 	@Test(priority = 1)
 	public void loginTest() {
@@ -39,6 +41,8 @@ public class PositiveTest {
 
 		// getTitle   Rahul changes
 		title = driver.getTitle();
+		
+		currentURL = driver.getCurrentUrl();
 
 	}
         //Rahul changes
@@ -56,5 +60,7 @@ public class PositiveTest {
 			e.printStackTrace();
 		}
 	}
+	
+
 
 }
